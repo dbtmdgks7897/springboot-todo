@@ -1,0 +1,74 @@
+template - 보여주는 것 (html)
+
+
+static - 정적 파일 (img, css) template 에서의 루트 경로
+<link rel="stylesheet" href="/css/todo-table.css"/>
+
+
+
+
+auth controller api v1
+
+auth service api v1
+
+todo controller api v1
+
+todo service api v1
+
+join.html
+login.html
+
+table.html
+
+
+---------------------------------
+
+1. 회원가입 페이지 이동
+
+2. 회원정보 입력
+
+3. 회원가입 버튼 클릭
+
+4. 유효성 체크
+(아이디, 비밀번호를 안침)
+(비밀번호를 양식에 안맞게 쳤다)
+(비밀번호와 확인이 다르다)
+
+5. fetch로 서버에 dto 전송
+
+6. RestController - Service
+
+7. 유효성 체크
+(화면에서 체크한 것 한 번 더 체크)
+(아이디 중복 확인)
+
+8. DB에 유저 정보 저장
+
+9. ResponseEntity + ResponseDTO + HttpStatus
+
+10. 화면에서 데이터 받아 로그인 페이지로 이동
+
+--------------------------------------
+
+1. 로그인 페이지 이동
+
+2. 회원 정보 입력
+
+3. 로그인 버튼 클릭
+
+4. 유효성 체크
+
+5. fetch로 서버에 dto 전송
+
+6. RestController - Service
+
+7. 유효성 체크
+
+8. DB에서 유저 정보 가져오기
+(있으면 세션 저장, 없으면 로그인 실패)
+
+9. ResponseEntity + ResponseDTO + HttpStatus
+
+10. 화면에서 데이터 받아서 메인 페이지 이동
+
+------------------------------------
